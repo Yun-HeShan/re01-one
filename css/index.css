@@ -285,6 +285,7 @@ aside ul li a:hover, nav a.linked {
 footer {
   width: auto;
   height: 205px;
+  display: flex;
   /* border: 1px black solid;*/
   margin: auto;
   background: linear-gradient(to right bottom, #5B44F7, #874EFF);
