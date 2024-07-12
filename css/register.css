@@ -1,0 +1,115 @@
+/* CSS Document */
+* {
+  margin: 0;
+  padding: 0;
+} /*这东西叫“通配符”用来匹配页面上所有元素。*{margin:0; padding:0;}代表了网页中所有元素，作用是Reset(重置)浏览器默认样式*/
+#left {
+  float: left;
+}
+#logo {
+  width: 700px;
+  height: 120px;
+  margin-top: 200px;
+  margin-left: 100px;
+/*  border: 2px red solid;*/
+}
+.image1 {
+  width: 100px;
+  float: left;
+  margin-top: 13px;
+  margin-left: 100px;
+}
+.image2 {
+  height: 60px;
+  float: left;
+  margin-top: 38px;
+  margin-left: 20px;
+}
+#text {
+  width: 500px;
+  color: white;
+  margin-top: 23px;
+  margin-left:220px;
+}
+#text span {
+  font-size: 30px;
+}
+#center {
+  width: 380px;
+  height: 470px;
+  margin: 150px auto;
+  margin-right: 200px;
+  border: 1px #FFFFFF solid;
+  background: #ECECEC;
+  color: black; /*字体颜色*/
+  /*	opacity: 0.8;透明度*/
+  background-color: rgba(255, 255, 255, 0.3); /*透明度*/
+  border-radius: 10px;
+  float: right;
+}
+#center form {
+  width: 374px;
+  height: 325px;
+  /*border:1px green solid;*/
+  margin: auto;
+}
+#center h1 {
+  color: white;
+  /*	border:1px blue solid;*/
+  margin-top: 20px;
+  font-size: 35px
+}
+#center form input[type="text"] {
+  width: 270px;
+  height: 50px;
+  border-radius: 25px; /*左上 右上 右下 左下*/
+  border: 2px #eee solid;
+  outline: none;
+  font-size: 20px; /*用于设置字体大小,实质上是控制字符框的高度。*/
+  display: block;
+  margin: 20px auto;
+  padding-left: 35px;
+  background: url("../images/user.jpg") no-repeat 10px;
+  background-position-y: center;
+  background-size: 20px;
+  background-color: aliceblue; /*表单填充色*/
+}
+#center form input[type="password"] {
+  width: 270px;
+  height: 50px;
+  border-radius: 25px; /*圆角属性*/
+  border: 2px #eee solid;
+  outline: none;
+  font-size: 20px; /*用于设置字体大小,实质上是控制字符框的高度。*/
+  display: block;
+  margin: 20px auto;
+  margin-top: 35px;
+  background: url("../images/lock.jpg") no-repeat 10px;
+  background-position-y: center;
+  background-size: 20px;
+  padding-left: 35px;
+  background-color: aliceblue;
+}
+#center form input[type="submit"] {
+  width: 280px;
+  height: 40px;
+  float: left;
+  margin-left: 45px;
+  background-color: #3F56D1;
+  color: white;
+  border: none;
+  cursor: pointer;
+  /*border-radius:7px;*/
+}
+#forgerpassword {
+  margin-top: 30px;
+  margin-left: 70px;
+  color: blue;
+  float: left;
+}
+#register {
+  margin-top: 30px;
+  margin-right: 70px;
+  color: blue;
+  float: right;
+}
